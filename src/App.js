@@ -1,8 +1,11 @@
-import React from "react"
+import React from "react";
+import Rota from "./routes/Rota"
 
 const App = () => {
   return(
-    <h1>ola mundo</h1>
+      <section>
+        <Rota />
+      </section>
   )
 }
 
